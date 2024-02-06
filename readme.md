@@ -44,7 +44,7 @@ npm start
 
 
 
-POST /api/order/HealthMart/orders 
+POST /api/HealthMart/orders 
 
 `Host: localhost:3000`
 

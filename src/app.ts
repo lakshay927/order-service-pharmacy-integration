@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.use("/api/order", orderRoutes);
+app.use("/api/", orderRoutes);
 app.use("/api/pharmacy",pharmacyRoutes)
 // Start the server
 app.listen(port, () => {
