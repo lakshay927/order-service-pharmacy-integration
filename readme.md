@@ -46,7 +46,8 @@ npm start
 
 POST /api/order/HealthMart/orders 
 
-Host: localhost:3000
+`Host: localhost:3000`
+
 Content-Type: application/json
 
 ```js
@@ -68,8 +69,6 @@ Content-Type: application/json
 ### Response:
 
 ```js
-HTTP/1.1 201 Created
-Content-Type: application/json
 
 {
   "orderId": "123",
