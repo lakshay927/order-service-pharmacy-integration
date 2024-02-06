@@ -44,9 +44,11 @@ npm start
 
 
 
-POST /api/pharmacy/HealthMart/orders HTTP/1.1
+POST /api/order/HealthMart/orders 
+
 Host: localhost:3000
 Content-Type: application/json
+
 ```js
 {
   "product": "Painkiller",
@@ -59,6 +61,7 @@ Content-Type: application/json
     "zipcode": "12345",
     "country": "Country"
   }
+}
 
 ```
 
