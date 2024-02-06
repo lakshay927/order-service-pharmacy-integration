@@ -1,5 +1,3 @@
-// src/routes/pharmacyRoutes.ts
-
 import express from 'express';
 import OrderController from '../controllers/OrderController';
 

@@ -5,6 +5,6 @@ import PharmacyController from '../controllers/PharmacyController';
 const router = express.Router();
 
 // Route to get a list of available pharmacies
-router.get('/pharmacy',  PharmacyController.getPharmacies);
+router.get('/',  PharmacyController.getPharmacies);
 
 export default router;
